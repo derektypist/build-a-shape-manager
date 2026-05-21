@@ -160,7 +160,7 @@ const initializeApp = () => {
   shapeTypeSelect.oninput = handleShapeSelect;
 
   for (const [, input] of Object.entries(propertyInputs)) {
-    input.oninput = handleInput();
+    input.oninput = handleInput;
   }
 };
 
