@@ -1,13 +1,14 @@
 {
-  "files": ["src/"]
-
-  ,
+  "files": [
+    "src/"
+  ],
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "parcel build src/index.html --dist-dir build",
+    "build": "parcel build src/index.html build --public-url .",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "typescript": "^6.0.3"
   }
 }
