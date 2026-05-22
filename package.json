@@ -8,6 +8,7 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "cssnano": "^8.0.1",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.14",
